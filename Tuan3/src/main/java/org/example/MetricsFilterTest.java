@@ -18,13 +18,12 @@ public class MetricsFilterTest {
             public void handleClass(String name, ClassMetrics c) {
                 System.out.println("name: " + name + ", WMC: " + c.getWmc());
                 System.out.println("name: " + name + ", LCOM: " + c.getLcom());
-// System.out.println("name: " + name + ", LCOM: " + c.*******());
                 ref.set(c);
                 latch.countDown();
             }
         };
         File f = new
-                File("E:\\Document-IUH\\Documents\\HK8\\KIENTRUCPHANMEM\\submit\\SA_Tuan3\\src\\main\\java\\org\\example\\Group.class");
+                File("D:\\Nam4\\HK2\\KienTruc\\KTPM\\Tuan3\\src\\main\\java\\org\\example\\Group.class");
         MetricsFilter.runMetrics(new String[] { f.getAbsolutePath() },
                 outputHandler, false);
         latch.await(1, TimeUnit.SECONDS);
