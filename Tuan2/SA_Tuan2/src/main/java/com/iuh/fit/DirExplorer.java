@@ -1,11 +1,7 @@
-package com.iuh.fit.zian;
+package com.iuh.fit;
 
 import java.io.File;
 
-/**
- * @author DuyBui
- * create-date 2024
- */
 public class DirExplorer {
     public interface FileHandler{
 

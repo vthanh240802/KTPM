@@ -1,8 +1,7 @@
 package com.iuh.fit;
 
 /**
- * @author BuiNhutDuy
- * created-date 2024
+ * @author Luonng Viet Thanh
  */
 public class CheckStudent {
     private static String staticField;

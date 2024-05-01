@@ -1,4 +1,4 @@
-package com.iuh.fit.zian;
+package com.iuh.fit;
 
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;

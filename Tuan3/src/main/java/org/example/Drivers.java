@@ -7,7 +7,7 @@ public class Drivers {
     public static void main(String[] args) throws Exception {
         LCOM4Calculation calculation = new LCOM4Calculation();
         File file = new File(
-                "E:\\Document-IUH\\Documents\\HK8\\KIENTRUCPHANMEM\\submit\\SA_Tuan3\\src\\main\\java\\org\\example\\Group.class");
+                "D:\\Nam4\\HK2\\KienTruc\\KTPM\\Tuan3\\src\\main\\java\\org\\example\\Group.class");
         List<Group> lst = calculation.loadGroups(file);
         lst.forEach(System.out::println);
         int lcom4 = calculation.loadGroups(file).size();

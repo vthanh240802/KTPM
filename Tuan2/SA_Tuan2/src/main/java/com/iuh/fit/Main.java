@@ -1,4 +1,4 @@
-package com.iuh.fit.zian;
+package com.iuh.fit;
 
 import com.github.javaparser.StaticJavaParser;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File projectDir = new File("E:\\Document-IUH\\Documents\\HK8\\KIENTRUCPHANMEM\\submit\\Tuan2\\TestTemplate");
+        File projectDir = new File("D:\\Nam4\\HK2\\KienTruc\\KTPM\\Tuan2\\TestTemplate");
         Dictionary dictionary = new Dictionary();
         List<String> requiredComments = List.of("@author", "created-date");
         String packagePattern = "com.iuh";
@@ -32,4 +32,5 @@ public class Main {
                 });
         dirExplorer.explore(projectDir);
 
+    }
 }

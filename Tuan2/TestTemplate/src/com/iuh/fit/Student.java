@@ -2,9 +2,7 @@ package com.iuh.fit;
 
 import java.util.Objects;
 
-/**
- * created-date 2024
- */
+
 public class Student {
     private String name;
     private String phone;

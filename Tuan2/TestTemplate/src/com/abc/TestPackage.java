@@ -1,7 +1,7 @@
 package com.abc;
 
 /**
- * @author BuiNhutDuy
+ * @author Luong Viet Thanh
  */
 public class TestPackage {
 }

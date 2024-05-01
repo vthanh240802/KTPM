@@ -1,4 +1,4 @@
-package com.iuh.fit.zian;
+package com.iuh.fit;
 
 import com.github.javaparser.ast.Modifier;
 import com.github.javaparser.ast.Node;
@@ -10,7 +10,6 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
 
 public class VoidVisitorAdapterCustom extends VoidVisitorAdapter<Object> {
     private String patternPackage;
